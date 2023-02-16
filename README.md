@@ -59,24 +59,23 @@ Project is created with:
 *Python: 3.9.13
 
 **Tratamiento de datos**
--import numpy as np
--import pandas as pd
--import sidetable
--from sklearn.preprocessing import OneHotEncoder
+- import numpy as np
+- import pandas as pd
+- import sidetable
+- from sklearn.preprocessing import OneHotEncoder
 
-*Estadísticos
-from scipy import stats
-import researchpy as rp
-from scipy.stats import levene
+**Estadísticos**
+- from scipy import stats
+- import researchpy as rp
+- from scipy.stats import levene
 
-*Librerías para manejar fechas
-from datetime import datetime
-import calendar
+**Librerías para manejar fechas**
+- from datetime import datetime
+- import calendar
 
-Gráficos
-==============================================================================
-import matplotlib.pyplot as plt
-import seaborn as sns
+**Gráficos**
+- import matplotlib.pyplot as plt
+- import seaborn as sns
 
 Test de Shapiro
 ==============================================================================
