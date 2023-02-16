@@ -57,58 +57,53 @@ Finally, I proceed to add the rest of the text code for the single prediction mo
 ## Technology:
 Project is created with:
 * Python: 3.9.13
-* # Lectura de datos
-# ==============================================================================
+* Libraries
+
+Lectura de datos
+==============================================================================
 import pickle
 
-# Tratamiento de datos
-# ==============================================================================
+Tratamiento de datos
+==============================================================================
 import numpy as np
 import pandas as pd
 import sidetable
 from sklearn.preprocessing import OneHotEncoder
 
-# Estadísticos
-# ==============================================================================
+Estadísticos
+==============================================================================
 from scipy import stats
 import researchpy as rp
 from scipy.stats import levene
 
-# Librerías para manejar fechas
-# ==============================================================================
+Librerías para manejar fechas
+==============================================================================
 from datetime import datetime
 import calendar
 
-# Desplegar todas las columnas
-# ==============================================================================
-pd.options.display.max_columns = None
-
-# Gráficos
-# ==============================================================================
+Gráficos
+==============================================================================
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Test de Shapiro
-# ==============================================================================
+Test de Shapiro
+==============================================================================
 from scipy import stats
 
-# Asimetría
-# ==============================================================================
+Asimetría
+==============================================================================
 from scipy.stats import skew
 
-# Curtosis
-# ==============================================================================
+Curtosis
+==============================================================================
 from scipy.stats import kurtosistest
 
-# Test de Levene
-# ==============================================================================
+Test de Levene
+==============================================================================
 from scipy.stats import levene
 
-# Configuración warnings
-# ==============================================================================
+Configuración warnings
+==============================================================================
 import warnings
 warnings.filterwarnings('ignore')
 
-# Tamaño gráficas
-# ==============================================================================
-plt.rcParams["figure.figsize"] = (10,8)
