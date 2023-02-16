@@ -100,3 +100,6 @@ Project is created with:
 - from sklearn import tree
 - from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 - from sklearn.model_selection import GridSearchCV
+
+**Apretura de imágenes**
+- import cv2
