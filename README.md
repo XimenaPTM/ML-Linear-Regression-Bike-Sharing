@@ -60,7 +60,7 @@ Project is created with:
 * Libraries
 
 Lectura de datos
-==============================================================================
+----
 import pickle
 
 Tratamiento de datos
