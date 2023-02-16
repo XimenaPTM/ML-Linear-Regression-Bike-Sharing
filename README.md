@@ -35,7 +35,7 @@ The company wants to know:
 - registered: Registered users
 - cnt: Daily users count
 
-## Methodology
+### Methodology
 
 For this project, I followed the following steps.
 
@@ -53,3 +53,62 @@ Further, in this step, I develop differetn regression model to predict the numbe
 
 **4. Prediction:**
 Finally, I proceed to add the rest of the text code for the single prediction model.
+
+## Technology:
+Project is created with:
+* Python: 3.9.13
+* # Lectura de datos
+# ==============================================================================
+import pickle
+
+# Tratamiento de datos
+# ==============================================================================
+import numpy as np
+import pandas as pd
+import sidetable
+from sklearn.preprocessing import OneHotEncoder
+
+# Estadísticos
+# ==============================================================================
+from scipy import stats
+import researchpy as rp
+from scipy.stats import levene
+
+# Librerías para manejar fechas
+# ==============================================================================
+from datetime import datetime
+import calendar
+
+# Desplegar todas las columnas
+# ==============================================================================
+pd.options.display.max_columns = None
+
+# Gráficos
+# ==============================================================================
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Test de Shapiro
+# ==============================================================================
+from scipy import stats
+
+# Asimetría
+# ==============================================================================
+from scipy.stats import skew
+
+# Curtosis
+# ==============================================================================
+from scipy.stats import kurtosistest
+
+# Test de Levene
+# ==============================================================================
+from scipy.stats import levene
+
+# Configuración warnings
+# ==============================================================================
+import warnings
+warnings.filterwarnings('ignore')
+
+# Tamaño gráficas
+# ==============================================================================
+plt.rcParams["figure.figsize"] = (10,8)
