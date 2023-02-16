@@ -56,14 +56,13 @@ Finally, I proceed to add the rest of the text code for the single prediction mo
 
 ## Technology:
 Project is created with:
-* Python: 3.9.13
-*import pickle
+*Python: 3.9.13
 
-* Tratamiento de datos
-import numpy as np
-import pandas as pd
-import sidetable
-from sklearn.preprocessing import OneHotEncoder
+**Tratamiento de datos**
+-import numpy as np
+-import pandas as pd
+-import sidetable
+-from sklearn.preprocessing import OneHotEncoder
 
 *Estadísticos
 from scipy import stats
