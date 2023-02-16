@@ -77,24 +77,26 @@ Project is created with:
 - import matplotlib.pyplot as plt
 - import seaborn as sns
 
-Test de Shapiro
-==============================================================================
-from scipy import stats
+**Test de Shapiro**
+- from scipy import stats
 
-Asimetría
-==============================================================================
-from scipy.stats import skew
+**Asimetría**
+- from scipy.stats import skew
 
-Curtosis
-==============================================================================
-from scipy.stats import kurtosistest
+**Curtosis**
+- from scipy.stats import kurtosistest
 
-Test de Levene
-==============================================================================
-from scipy.stats import levene
+**Test de Levene**
+- from scipy.stats import levene
 
-Configuración warnings
-==============================================================================
-import warnings
-warnings.filterwarnings('ignore')
+**Configuración warnings**
+- import warnings
+- warnings.filterwarnings('ignore')
 
+**Modelado y evaluación**
+- from sklearn.model_selection import train_test_split
+- from sklearn.tree import DecisionTreeRegressor
+- from sklearn.ensemble import RandomForestRegressor
+- from sklearn import tree
+- from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
+- from sklearn.model_selection import GridSearchCV
