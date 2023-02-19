@@ -93,7 +93,7 @@ Project is created with:
 - import warnings
 - warnings.filterwarnings('ignore')
 
-**Modelado y evaluación**
+**Modelling and evaluation**
 - from sklearn.model_selection import train_test_split
 - from sklearn.tree import DecisionTreeRegressor
 - from sklearn.ensemble import RandomForestRegressor
