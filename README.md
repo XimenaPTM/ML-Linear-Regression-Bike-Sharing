@@ -5,6 +5,7 @@ BoomBikes Bike Sharing Prediction - Regression Problem
 * [General info](#general-info)
 * [Methodology](#methodology)
 * [Technologies](#technologies)
+* [Visualization](#visualization)
 
 # General info
 
@@ -100,3 +101,6 @@ Project is created with:
 - from sklearn import tree
 - from sklearn.metrics import r2_score, mean_squared_error, mean_absolute_error
 - from sklearn.model_selection import GridSearchCV
+
+# Visualization
+https://public.tableau.com/app/profile/ximena.trujillo.morillo/viz/Bikesharing_16765411666360/1_Summary?publish=yes
