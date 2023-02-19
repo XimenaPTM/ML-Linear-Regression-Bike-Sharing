@@ -3,10 +3,10 @@ BoomBikes Bike Sharing Prediction - Regression Problem
 
 ## Table of contents
 * [General info](#general-info)
+* [Methodology](#methodology)
 * [Technologies](#technologies)
-* [Setup](#setup)
 
-## General info
+# General info
 
 A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic.  BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19. 
 
@@ -35,7 +35,7 @@ The company wants to know:
 - registered: Registered users
 - cnt: Daily users count
 
-### Methodology
+# Methodology
 
 For this project, I followed the following steps.
 
@@ -45,51 +45,51 @@ The first step performed was to get to know and understand the data chosen for t
 **2. EDA:**
 In a jupyter notebook, I implemented the EDA and an analysis of response and predictor variables.
 
-**2. Data preparation:**
+**3. Data preparation:**
 For the following step, I focus on preparing the data through coding and standardisation of variables. I separated the casual and registered columns to generate models for each type of user, as they behave differently.
 
-**3. Modeling:**
-Further, in this step, I develop differetn regression model to predict the number of bike registrations. Then, I select the best model between decision tree and random forest; by analyzing the Root Mean Square Error and the R2.
+**4. Modeling:**
+Further, in this step, I develop differetn regression model to predict the number of bike registrations.
 
-**4. Prediction:**
-Finally, I proceed to add the rest of the text code for the single prediction model.
+**5. Final observations:**
+Finally, I compared the different models and select the best model between decision tree and random forest; by analyzing the Root Mean Square Error and the R2.
 
-## Technology:
+# Technology:
 Project is created with:
 *Python: 3.9.13
 
-**Tratamiento de datos**
+**Data processing**
 - import numpy as np
 - import pandas as pd
 - import sidetable
 - from sklearn.preprocessing import OneHotEncoder
 
-**Estadísticos**
+**Statistics**
 - from scipy import stats
 - import researchpy as rp
 - from scipy.stats import levene
 
-**Librerías para manejar fechas**
+**Dates**
 - from datetime import datetime
 - import calendar
 
-**Gráficos**
+**Graphics**
 - import matplotlib.pyplot as plt
 - import seaborn as sns
 
-**Test de Shapiro**
+** Shapiro Test**
 - from scipy import stats
 
-**Asimetría**
+**Asymmetry**
 - from scipy.stats import skew
 
-**Curtosis**
+**Kurtosis**
 - from scipy.stats import kurtosistest
 
-**Test de Levene**
+**Levene Test**
 - from scipy.stats import levene
 
-**Configuración warnings**
+**Warnings configuration**
 - import warnings
 - warnings.filterwarnings('ignore')
 
